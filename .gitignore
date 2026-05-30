@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# SQLite locks
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local working files
+backups/
+*.bak
